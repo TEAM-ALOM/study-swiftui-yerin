@@ -34,7 +34,7 @@ struct ContentView: View {
                 ListDetailView()
             }
             Spacer()
-        }//짱큰vstack 닫는거
+        }//짱큰 vstack 닫는거
         //view 닫는거
     }
 }
