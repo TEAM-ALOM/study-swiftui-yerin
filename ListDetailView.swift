@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ListDetailView: View {
     var body: some View {
-        HStack(alignment:.top, spacing:0){
+        HStack(alignment: .top, spacing: 0){
             Image(systemName: "person.2")
-                .padding(.trailing,8)
+                .padding(.trailing, 8)
                 .foregroundColor(Color("gray90"))
             Text("22")
-                .font(.system(size:16, weight:.bold))
+                .font(.system(size: 16, weight: .bold))
                 .foregroundColor(Color("gray90"))
-                .padding(.trailing,12)
+                .padding(.trailing, 12)
             Text("친절하고 매너가 좋아요.")
-                .font(.system(size:16, weight:.regular))
+                .font(.system(size: 16, weight: .regular))
                 .padding(12)
                 .foregroundColor(Color("gray90"))
                 .background(Color("gray10"))
