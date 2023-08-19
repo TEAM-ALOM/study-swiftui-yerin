@@ -13,7 +13,7 @@ struct NavigationView: View {
             Image(systemName: "chevron.left")
             Spacer()
             Text("프로필")
-                .font(.system(size:16, weight:.bold))
+                .font(.system(size: 16, weight: .bold))
             Spacer()
             Image(systemName: "square.and.arrow.up")
             
@@ -21,7 +21,7 @@ struct NavigationView: View {
         
         .foregroundColor(Color("gray90"))
         .frame(height: 44)
-        .padding(.horizontal,16)
+        .padding(.horizontal, 16)
     }
 }
 
